@@ -1,7 +1,7 @@
 # python-challenge
 
 # Part 1
-For this challenge, I had to anlyse finacial records for a company. These records are contained in budget_data.csv.
+This an assignment for UC Davis' Data Anlytics Program. For this challenge, I had to anlyse finacial records for a company. These records are contained in budget_data.csv.
 ```python
 #establishing path to file
 csv_path = os.path.join(".", "Resources", "budget_data.csv")
@@ -26,5 +26,17 @@ Greatest Increase in Profits:Feb-2012 ($1926159)
 
 Greatest Decrease in Profits:Sep-2013 ($-2196167)
 ```
-
- This an assignment for UC Davis' Data Anlytics Program. This project had two parts. For the first, I used python to analyze finacial data, export my final summary of the data to another file. Second, I analysed polling data with python and exported this as well to another file. 
+# Part 2
+Using a csv containig polling data, I had to find the complete list of candidates who received votes, the percentage of votes each candidate won, the total number of votes each candidate won, and the winner of the election based on popular vote. The results were: 
+```python
+Election Results
+-------------------------------
+Total Votes: 3521001
+-------------------------------
+Khan: 63.000% (2218231)
+Correy: 20.000% (704200)
+Li: 14.000% (492940)
+O'Tooley: 3.000% (105630)
+-------------------------------
+Winner: Khan
+```
